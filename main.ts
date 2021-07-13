@@ -1,11 +1,11 @@
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    controller.moveSprite(Ev3tec7s_Spaceship)
+    controller.moveSprite(Ev3tec7s_Spaceship, 200, 200)
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     projectile = sprites.createProjectileFromSprite(assets.image`laser`, Ev3tec7s_Spaceship, 200, 0)
 })
 controller.B.onEvent(ControllerButtonEvent.Released, function () {
-    controller.moveSprite(Ev3tec7s_Spaceship)
+    controller.moveSprite(Ev3tec7s_Spaceship, 100, 100)
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy(effects.fire, 500)
@@ -23,6 +23,7 @@ info.setLife(3)
 Ev3tec7s_Spaceship = sprites.create(assets.image`Ev3tec7s plane`, SpriteKind.Player)
 controller.moveSprite(Ev3tec7s_Spaceship)
 Ev3tec7s_Spaceship.setStayInScreen(true)
+Ev3tec7s_Spaceship.say("Tip: Hold X for afterburner!", 5000)
 game.onUpdateInterval(1000, function () {
     bogey = sprites.create(assets.image`Madhavs plane`, SpriteKind.Enemy)
     bogey.setVelocity(-100, 0)
