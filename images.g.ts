@@ -794,25 +794,6 @@ namespace myImages {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
-            case "f$C-su/oi(b6sd:oLx#l":
-            case "Ev3tec7s plane":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. f f . . . . . . . . . . . . . 
-. f f . . . . . . . . . . . . . 
-. f f f . . . . f f f . . . . . 
-f f 4 f . . f f 4 4 f 2 2 . . . 
-f 4 4 f . . f 4 4 4 f 2 2 . . . 
-f f f f f f f f f f f f f . . . 
-4 4 4 4 4 4 4 4 4 4 4 4 9 9 9 . 
-4 4 4 4 4 4 4 4 4 4 4 4 9 9 9 f 
-f f f f f f f f f 4 4 4 f f f f 
-. . . . f 4 4 f f f f f f . . . 
-. . . f f 4 f f . . . . . . . . 
-. . . f 4 4 f 2 2 . . . . . . . 
-. . . f f f f 2 2 . . . . . . . 
-`;
             case "hA_e/bc#hX#(n6Ia`B+n":
             case "Madhavs plane":return img`
 . . . . . . . . . . . . . . . . 
@@ -831,6 +812,25 @@ f f f f 9 9 9 f f f f f f f f f
 . . . . . . . . f f 9 f f . . . 
 . . . . . . . 2 2 f 9 9 f . . . 
 . . . . . . . 2 2 f f f f . . . 
+`;
+            case "f$C-su/oi(b6sd:oLx#l":
+            case "Ev3tec7s plane":return img`
+. . . . . . . . . . . . . . . . 
+. . . 1 1 1 . . . . . . . . . . 
+. . . 1 1 1 . . . . . . . . . . 
+. f f . . 1 . . . . . . . . . . 
+. f f . . 1 . . . . . . . . . . 
+. f f f . 1 . . f f f . . . . . 
+f f 4 f . 1 f f 4 4 f 2 2 . . . 
+f 4 4 f . 1 f 4 4 4 f 2 2 . . . 
+f f f f f f f f f f f f f . . . 
+4 4 4 4 4 4 4 4 4 4 4 4 9 9 9 . 
+4 4 4 4 4 4 4 4 4 4 4 4 9 9 9 f 
+f f f f f f f f f 4 4 4 f f f f 
+. . . . f 4 4 f f f f f f . . . 
+. . . f f 4 f f . . . . . . . . 
+. . . f 4 4 f 2 2 . . . . . . . 
+. . . f f f f 2 2 . . . . . . . 
 `;
         }
         return null;
