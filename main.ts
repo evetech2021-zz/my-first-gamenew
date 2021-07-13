@@ -79,7 +79,7 @@ controller.B.onEvent(ControllerButtonEvent.Released, function () {
         . . . f 4 4 f 2 2 . . . . . . . 
         . . . f f f f 2 2 . . . . . . . 
         `)
-    controller.moveSprite(Ev3tec7s_Spaceship, 100, 100)
+    controller.moveSprite(Ev3tec7s_Spaceship)
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
     otherSprite.destroy(effects.fire, 500)
